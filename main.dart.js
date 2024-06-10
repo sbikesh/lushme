@@ -66145,7 +66145,7 @@ m=A.jQ(a0,10,a0)
 l=a.d
 k=B.f.j(B.c.a9(l))
 j=A.jQ(a0,10,a0)
-i=a.d===0
+i=a.d<=0
 h=i?a.gUt():a0
 g=A.ix("Change Pattern",a0,a0,a0)
 f=A.jQ(a0,5,a0)
