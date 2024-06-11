@@ -66034,7 +66034,7 @@ m_(){var s=0,r=A.S(t.H),q=1,p,o=this,n,m,l,k,j
 var $async$m_=A.T(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.V(A.Np(A.dr("http://sgp1.blynk.cloud/external/api/isHardwareConnected?token=uRxhxeAdh9hS0NkU9ix_lqlcpEb-EW7a",0,null)),$async$m_)
+return A.V(A.Np(A.dr("https://sgp1.blynk.cloud/external/api/isHardwareConnected?token=uRxhxeAdh9hS0NkU9ix_lqlcpEb-EW7a",0,null)),$async$m_)
 case 6:n=b
 A.dZ("Response status: "+n.b)
 l=n
@@ -66060,7 +66060,7 @@ o2(){var s=0,r=A.S(t.H),q=1,p,o=this,n,m,l,k,j,i
 var $async$o2=A.T(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.V(A.Np(A.dr("http://sgp1.blynk.cloud/external/api/get?token=uRxhxeAdh9hS0NkU9ix_lqlcpEb-EW7a&V5",0,null)),$async$o2)
+return A.V(A.Np(A.dr("https://sgp1.blynk.cloud/external/api/get?token=uRxhxeAdh9hS0NkU9ix_lqlcpEb-EW7a&V5",0,null)),$async$o2)
 case 6:n=b
 if(n.b===200){k=n
 m=B.d.qn(A.abk(A.aaX(k.e).c.a.k(0,"charset")).dz(k.w))
@@ -66103,14 +66103,14 @@ rZ(a){return this.a0L(a)},
 a0L(a){var s=0,r=A.S(t.H)
 var $async$rZ=A.T(function(b,c){if(b===1)return A.P(c,r)
 while(true)switch(s){case 0:s=2
-return A.V(A.Np(A.dr("http://sgp1.blynk.cloud/external/api/update?token=uRxhxeAdh9hS0NkU9ix_lqlcpEb-EW7a&V0="+a,0,null)),$async$rZ)
+return A.V(A.Np(A.dr("https://sgp1.blynk.cloud/external/api/update?token=uRxhxeAdh9hS0NkU9ix_lqlcpEb-EW7a&V0="+a,0,null)),$async$rZ)
 case 2:if(c.b!==200)A.dZ("Failed to update slider value")
 return A.Q(null,r)}})
 return A.R($async$rZ,r)},
 ov(){var s=0,r=A.S(t.H),q=this
 var $async$ov=A.T(function(a,b){if(a===1)return A.P(b,r)
 while(true)switch(s){case 0:s=2
-return A.V(A.Np(A.dr("http://sgp1.blynk.cloud/external/api/update?token=uRxhxeAdh9hS0NkU9ix_lqlcpEb-EW7a&V1="+B.b.eA(q.z,q.f),0,null)),$async$ov)
+return A.V(A.Np(A.dr("https://sgp1.blynk.cloud/external/api/update?token=uRxhxeAdh9hS0NkU9ix_lqlcpEb-EW7a&V1="+B.b.eA(q.z,q.f),0,null)),$async$ov)
 case 2:if(b.b!==200)A.dZ("Failed to update pattern")
 return A.Q(null,r)}})
 return A.R($async$ov,r)},
@@ -66118,7 +66118,7 @@ t_(a){return this.a0M(a)},
 a0M(a){var s=0,r=A.S(t.H)
 var $async$t_=A.T(function(b,c){if(b===1)return A.P(c,r)
 while(true)switch(s){case 0:s=2
-return A.V(A.Np(A.dr("http://sgp1.blynk.cloud/external/api/update?token=uRxhxeAdh9hS0NkU9ix_lqlcpEb-EW7a&V"+(a+6)+"="+a,0,null)),$async$t_)
+return A.V(A.Np(A.dr("https://sgp1.blynk.cloud/external/api/update?token=uRxhxeAdh9hS0NkU9ix_lqlcpEb-EW7a&V"+(a+6)+"="+a,0,null)),$async$t_)
 case 2:if(c.b!==200)A.dZ("Failed to update speed multiplier")
 return A.Q(null,r)}})
 return A.R($async$t_,r)},
